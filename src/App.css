@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(https://fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css);
+
+body {
+  font-family: "Open Sans Hebrew", serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+}
+
+.card {
+  position: relative;
+  height: 23rem;
+  width: 16rem;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  flex-direction: column;
+}
+
+.hover-zoom {
+  transform: scale(1);
+  width: 100%;
+  height: auto;
+}
+
+img.hover-zoom:hover {
+  transform: scale(1.5);
+}
+
+.img-wrapper {
+  overflow: hidden;
+}
+
+p {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+.card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+}
+
+.category {
+  font-size: 0.8rem;
+  font-weight: 600;
+  display: 0.1rem 0.2rem;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  -webkit-line-clamp: 2;
+}
+
+.sub-title {
+  font-size: 0.8rem;
+  -webkit-line-clamp: 3;
+}
+.author {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: gray;
+}
+.wrap-editor {
+  display: flex;
+  align-items: center;
+}
+.editor {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3d3d3;
+  justify-content: space-evenly;
+  width: 20rem;
+}
+.cat-edit {
+  font-size: 0.8rem;
+}
+.edit-bc {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-name {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 920px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+}
+/*add you code here*/

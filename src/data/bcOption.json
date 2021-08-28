@@ -1,0 +1,26 @@
+[
+    {
+        "value":"Red",
+        "name":"אדום"
+    },
+    {
+        "value":"green",
+        "name":"ירוק"
+    },
+    {
+        "value":"blue",
+        "name":"כחול"
+    },
+    {
+        "value":"yellow",
+        "name":"צהוב"
+    },
+    {
+        "value":"transparent",
+        "name":"ללא"
+    },
+    {
+        "value":"pink",
+        "name":"ורוד"
+    }
+]
